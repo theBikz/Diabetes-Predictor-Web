@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Predictor</title>
+</head>
+<body>
+    <form action="{{ url_for('upload') }}" method="POST">
+        <label for="pregnancies">Pregnancies:</label>
+        <input type="text" id="pregnancies" name="pregnancies"><br><br>
+        <label for="glucose">Glucose:</label>
+        <input type="text" id="glucose" name="glucose"><br><br>
+        <label for="bp">Blood Pressure:</label>
+        <input type="text" id="bp" name="bp"><br><br>
+        <label for="st">Skin Thickness:</label>
+        <input type="text" id="st" name="st"><br><br>
+        <label for="insulin">Insulin:</label>
+        <input type="text" id="insulin" name="insulin"><br><br>
+        <label for="bmi">BMI:</label>
+        <input type="text" id="bmi" name="bmi"><br><br>
+        <label for="pedigree">Diabetes Pedigree:</label>
+        <input type="text" id="pedigree" name="pedigree"><br><br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age"><br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>
